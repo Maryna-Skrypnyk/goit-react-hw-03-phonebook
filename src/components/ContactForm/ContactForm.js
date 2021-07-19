@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import shortid from 'shortid';
+
 import styles from './ContactForm.module.scss';
 
 const INITIAL_STATE = {
