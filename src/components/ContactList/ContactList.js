@@ -59,8 +59,8 @@ const ContactItem = ({ name, number, onDeleteContact }) => (
     <p className={styles.Contact}>
       <span className={styles.ContactName}>{name}:</span> {number}
     </p>
-    <IconButton onDeleteContact={onDeleteContact}>
-      <IconDelete width={20} height={20} />
+    <IconButton onDeleteContact={onDeleteContact} aria-label="Delete contact">
+      <IconDelete width={15} height={15} />
     </IconButton>
   </li>
 );
